@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #414141;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/20723439/pexels-photo-20723439/free-photo-of-a-group-of-rams-laying-in-the-grass.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400px"  alt="no image">
+    <img src="./ethereum_logo_icon_147293.png" width="300px"  alt="no image">
+    <picture>
+        <source media="(min-width: 650px)" srcset="./ethereum_logo_icon_147293"/>
+        <source media="(min-width: 450px)" srcset="./ethereum_logo_icon_147293"/>
+        <img src="./ethereum_logo_icon_147293.png" alt="">
+    </picture>
+
+    
+<img src="ethereum_logo_icon_147293.png" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick="one()" target="" alt="" title="" href="" coords="244,167,88" shape="circle">
+    <area onclick="two()" target="" alt="" title="" href="" coords="215,348,301,413" shape="rect">
+</map>
+</body>
+  <script>
+    function one(){
+        alert("you clicked on ONE")
+    }
+
+    function two(){
+        alert("you clicked on TWO")
+    }
+  </script>
+</html>
